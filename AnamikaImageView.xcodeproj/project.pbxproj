@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184A39E123FA6B99004EE867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A39E023FA6B99004EE867 /* AppDelegate.swift */; };
+		184A39E323FA6B99004EE867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A39E223FA6B99004EE867 /* SceneDelegate.swift */; };
+		184A39E523FA6B99004EE867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A39E423FA6B99004EE867 /* ViewController.swift */; };
+		184A39E823FA6B99004EE867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A39E623FA6B99004EE867 /* Main.storyboard */; };
+		184A39EA23FA6B99004EE867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A39E923FA6B99004EE867 /* Assets.xcassets */; };
+		184A39ED23FA6B99004EE867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A39EB23FA6B99004EE867 /* LaunchScreen.storyboard */; };
+		184A39F823FA6B9A004EE867 /* AnamikaImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A39F723FA6B9A004EE867 /* AnamikaImageViewTests.swift */; };
+		184A3A0323FA6B9A004EE867 /* AnamikaImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A3A0223FA6B9A004EE867 /* AnamikaImageViewUITests.swift */; };
+		184A3A1123FA6C25004EE867 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A3A1023FA6C25004EE867 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184A39F423FA6B9A004EE867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184A39D523FA6B99004EE867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A39DC23FA6B99004EE867;
+			remoteInfo = AnamikaImageView;
+		};
+		184A39FF23FA6B9A004EE867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184A39D523FA6B99004EE867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A39DC23FA6B99004EE867;
+			remoteInfo = AnamikaImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184A39DD23FA6B99004EE867 /* AnamikaImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnamikaImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A39E023FA6B99004EE867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184A39E223FA6B99004EE867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		184A39E423FA6B99004EE867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184A39E723FA6B99004EE867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184A39E923FA6B99004EE867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184A39EC23FA6B99004EE867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184A39EE23FA6B99004EE867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A39F323FA6B9A004EE867 /* AnamikaImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnamikaImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A39F723FA6B9A004EE867 /* AnamikaImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnamikaImageViewTests.swift; sourceTree = "<group>"; };
+		184A39F923FA6B9A004EE867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A39FE23FA6B9A004EE867 /* AnamikaImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnamikaImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A3A0223FA6B9A004EE867 /* AnamikaImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnamikaImageViewUITests.swift; sourceTree = "<group>"; };
+		184A3A0423FA6B9A004EE867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A3A1023FA6C25004EE867 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184A39DA23FA6B99004EE867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A39F023FA6B9A004EE867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A39FB23FA6B9A004EE867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184A39D423FA6B99004EE867 = {
+			isa = PBXGroup;
+			children = (
+				184A39DF23FA6B99004EE867 /* AnamikaImageView */,
+				184A39F623FA6B9A004EE867 /* AnamikaImageViewTests */,
+				184A3A0123FA6B9A004EE867 /* AnamikaImageViewUITests */,
+				184A39DE23FA6B99004EE867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184A39DE23FA6B99004EE867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184A39DD23FA6B99004EE867 /* AnamikaImageView.app */,
+				184A39F323FA6B9A004EE867 /* AnamikaImageViewTests.xctest */,
+				184A39FE23FA6B9A004EE867 /* AnamikaImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184A39DF23FA6B99004EE867 /* AnamikaImageView */ = {
+			isa = PBXGroup;
+			children = (
+				184A39E023FA6B99004EE867 /* AppDelegate.swift */,
+				184A39E223FA6B99004EE867 /* SceneDelegate.swift */,
+				184A39E423FA6B99004EE867 /* ViewController.swift */,
+				184A39E623FA6B99004EE867 /* Main.storyboard */,
+				184A3A1023FA6C25004EE867 /* TableViewCell.swift */,
+				184A39E923FA6B99004EE867 /* Assets.xcassets */,
+				184A39EB23FA6B99004EE867 /* LaunchScreen.storyboard */,
+				184A39EE23FA6B99004EE867 /* Info.plist */,
+			);
+			path = AnamikaImageView;
+			sourceTree = "<group>";
+		};
+		184A39F623FA6B9A004EE867 /* AnamikaImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				184A39F723FA6B9A004EE867 /* AnamikaImageViewTests.swift */,
+				184A39F923FA6B9A004EE867 /* Info.plist */,
+			);
+			path = AnamikaImageViewTests;
+			sourceTree = "<group>";
+		};
+		184A3A0123FA6B9A004EE867 /* AnamikaImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184A3A0223FA6B9A004EE867 /* AnamikaImageViewUITests.swift */,
+				184A3A0423FA6B9A004EE867 /* Info.plist */,
+			);
+			path = AnamikaImageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184A39DC23FA6B99004EE867 /* AnamikaImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A3A0723FA6B9A004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageView" */;
+			buildPhases = (
+				184A39D923FA6B99004EE867 /* Sources */,
+				184A39DA23FA6B99004EE867 /* Frameworks */,
+				184A39DB23FA6B99004EE867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnamikaImageView;
+			productName = AnamikaImageView;
+			productReference = 184A39DD23FA6B99004EE867 /* AnamikaImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184A39F223FA6B9A004EE867 /* AnamikaImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A3A0A23FA6B9A004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageViewTests" */;
+			buildPhases = (
+				184A39EF23FA6B9A004EE867 /* Sources */,
+				184A39F023FA6B9A004EE867 /* Frameworks */,
+				184A39F123FA6B9A004EE867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184A39F523FA6B9A004EE867 /* PBXTargetDependency */,
+			);
+			name = AnamikaImageViewTests;
+			productName = AnamikaImageViewTests;
+			productReference = 184A39F323FA6B9A004EE867 /* AnamikaImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184A39FD23FA6B9A004EE867 /* AnamikaImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A3A0D23FA6B9A004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageViewUITests" */;
+			buildPhases = (
+				184A39FA23FA6B9A004EE867 /* Sources */,
+				184A39FB23FA6B9A004EE867 /* Frameworks */,
+				184A39FC23FA6B9A004EE867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184A3A0023FA6B9A004EE867 /* PBXTargetDependency */,
+			);
+			name = AnamikaImageViewUITests;
+			productName = AnamikaImageViewUITests;
+			productReference = 184A39FE23FA6B9A004EE867 /* AnamikaImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184A39D523FA6B99004EE867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Apple MacBook Pro ";
+				TargetAttributes = {
+					184A39DC23FA6B99004EE867 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					184A39F223FA6B9A004EE867 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 184A39DC23FA6B99004EE867;
+					};
+					184A39FD23FA6B9A004EE867 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 184A39DC23FA6B99004EE867;
+					};
+				};
+			};
+			buildConfigurationList = 184A39D823FA6B99004EE867 /* Build configuration list for PBXProject "AnamikaImageView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184A39D423FA6B99004EE867;
+			productRefGroup = 184A39DE23FA6B99004EE867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184A39DC23FA6B99004EE867 /* AnamikaImageView */,
+				184A39F223FA6B9A004EE867 /* AnamikaImageViewTests */,
+				184A39FD23FA6B9A004EE867 /* AnamikaImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184A39DB23FA6B99004EE867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A39ED23FA6B99004EE867 /* LaunchScreen.storyboard in Resources */,
+				184A39EA23FA6B99004EE867 /* Assets.xcassets in Resources */,
+				184A39E823FA6B99004EE867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A39F123FA6B9A004EE867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A39FC23FA6B9A004EE867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184A39D923FA6B99004EE867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A39E523FA6B99004EE867 /* ViewController.swift in Sources */,
+				184A3A1123FA6C25004EE867 /* TableViewCell.swift in Sources */,
+				184A39E123FA6B99004EE867 /* AppDelegate.swift in Sources */,
+				184A39E323FA6B99004EE867 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A39EF23FA6B9A004EE867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A39F823FA6B9A004EE867 /* AnamikaImageViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A39FA23FA6B9A004EE867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A3A0323FA6B9A004EE867 /* AnamikaImageViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184A39F523FA6B9A004EE867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184A39DC23FA6B99004EE867 /* AnamikaImageView */;
+			targetProxy = 184A39F423FA6B9A004EE867 /* PBXContainerItemProxy */;
+		};
+		184A3A0023FA6B9A004EE867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184A39DC23FA6B99004EE867 /* AnamikaImageView */;
+			targetProxy = 184A39FF23FA6B9A004EE867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184A39E623FA6B99004EE867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184A39E723FA6B99004EE867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184A39EB23FA6B99004EE867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184A39EC23FA6B99004EE867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184A3A0523FA6B9A004EE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184A3A0623FA6B9A004EE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184A3A0823FA6B9A004EE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184A3A0923FA6B9A004EE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184A3A0B23FA6B9A004EE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnamikaImageView.app/AnamikaImageView";
+			};
+			name = Debug;
+		};
+		184A3A0C23FA6B9A004EE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnamikaImageView.app/AnamikaImageView";
+			};
+			name = Release;
+		};
+		184A3A0E23FA6B9A004EE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnamikaImageView;
+			};
+			name = Debug;
+		};
+		184A3A0F23FA6B9A004EE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnamikaImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184A39D823FA6B99004EE867 /* Build configuration list for PBXProject "AnamikaImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A3A0523FA6B9A004EE867 /* Debug */,
+				184A3A0623FA6B9A004EE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A3A0723FA6B9A004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A3A0823FA6B9A004EE867 /* Debug */,
+				184A3A0923FA6B9A004EE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A3A0A23FA6B9A004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A3A0B23FA6B9A004EE867 /* Debug */,
+				184A3A0C23FA6B9A004EE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A3A0D23FA6B9A004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A3A0E23FA6B9A004EE867 /* Debug */,
+				184A3A0F23FA6B9A004EE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184A39D523FA6B99004EE867 /* Project object */;
+}
